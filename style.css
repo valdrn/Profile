@@ -1,37 +1,30 @@
 body  {
-  background-color: #EEEEEE
+  background-color: #006350;
+  margin: 0;
 }
 
 h1 {
-  font-family: 'Lora', serif;
-  color: #303841;
-  font-size:20px
+  font-family: 'Lilita One', cursive;
+  color: #FBDC3E;
+  font-size:100px
 }
 
 h2 {
-  font-family: 'Lora', serif;
-  color: #303841;
-  font-size:13px
+  font-family: 'Lilita One', cursive;
+  color: #FBDC3E;
+  font-size:60px
 }
 
 p {
-  color: #3A4750;
-  font-family: 'Zen Kurenaido', sans-serif;
-  font-size:16px
-}
-
-i {
-  color: #EA9215;
-  font-size: 45px;
-}
-
-i:hover {
-  opacity: 50%;
+  color: #FBDC3E;
+  font-family: 'Comfortaa', cursive;
+  font-size:16px;
+  font-weight: bold;
 }
 
 a {
-  color: #3A4750;
-  font-family: 'Zen Kurenaido', sans-serif;
+
+  font-family: sans-serif;
   text-decoration: none;
   font-size:16px
 }
@@ -46,35 +39,82 @@ ul {
   padding: 0;
 }
 
-.card-white {
-  background-color: white;
-  padding: 40px 40px;
+i {
+  color: #006350;
+  font-size: 45px;
+}
+
+i:hover {
+  opacity: 50%;
+}
+
+.card-green {
+  background-color: #006350;
+  padding: 20px;
   margin: 20px;
   text-align: center;
-  box-shadow: 0px 10px 30px rgb(0 0 0 / 10%);
-  border-radius: 4px;
 }
+
+footer {
+  background-color: #F6CED7;
+  padding: 10px;
+  text-align: center;
+}
+
+#footer-text {
+  color: #006350;
+  font-family: 'Comfortaa', cursive;
+  font-size:16px;
+  font-weight: bold;
+}
+
 .container {
   width: 1200px;
   margin: 40px auto;
 }
 
 .avatar {
-  width: 120px;
+  width: 200px;
   border-radius: 50%;
 }
 
 .button {
-    background-color: #EA9215;
-    color: white;
+    background-color: #006350;
+    color: #FBDC3E;
     padding: 15px 20px;
     border-radius: 4px;
     font-weight: bold;
+    border: solid
 }
 
 .list-inline li {
   display: inline;
   padding: 10px;
+}
+
+.flex-form {
+  display: flex;
+  justify-content: center;
+}
+
+#send-button {
+  background-color: #006350;
+  color: #F6CED7;
+  font-family: 'Lilita One', cursive;
+  font-size: 25px;
+  border-radius: 4px;
+  border: none;
+
+}
+
+#email-form {
+  border-radius: 4px;
+  font-family: 'Comfortaa', cursive;
+  font-size: 16px;
+  padding: 8px ;
+  border-color: #006350;
+  border-style: solid;
+  margin-right: 5px;
 }
 
 @media (max-width: 960px) {
